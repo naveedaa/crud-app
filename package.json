@@ -1,0 +1,34 @@
+{
+  "name": "gatsby-starter-minimal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Gatsby starter with no plugins and a single welcome page.",
+  "author": "Laurie Barth",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "bootstrap": "node ./scripts/bootstrap-fauna-database.js"
+  },
+  "license": "0BSD",
+  "dependencies": {
+    "@apollo/client": "^3.3.6",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "faunadb": "^4.0.0",
+    "gatsby": "^2.26.1",
+    "gatsby-plugin-material-ui": "^2.1.10",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^2.0.2"
+  }
+}
